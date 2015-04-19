@@ -60,7 +60,7 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 
 
 <p>This assignment is part of the Coursera “Reproducible Research” course from the Data Science specialization. It makes use of data from a personal activity monitoring device. This device collects data at 5 minute intervals through out the day. The data consists of two months of data from an anonymous individual collected during the months of October and November, 2012 and include the number of steps taken in 5 minute intervals each day.</p>
-<p>Furthermore, this assignment use R markdown to write a report that answers a series of questions detailed in the sections below. Using Knitr in Rstudio, this file will be transformed into a HTML and a md file.</p>
+<p>Furthermore, this assignment use R markdown to write a report that answers a series of questions detailed in the sections below. Using Knitr in Rstudio, this file will be transformed into a HTML and a md file (including the figures requested).</p>
 <p>Therefore, the reader should be able to follow the instructions given in the document and reproduce exactly the same results.</p>
 <p>(Please note that the R version used is 3.1.3 on MAC OS Maverick 10.9.5 and that more information regarding the dataset itself are available in the README file)</p>
 <div id="loading-and-preprocessing-the-data" class="section level3">
@@ -251,7 +251,7 @@ hist(steps_count$Total,
 <pre><code>## [1] 10766.19</code></pre>
 <pre class="r"><code>median(steps_count$Total)</code></pre>
 <pre><code>## [1] 10766.19</code></pre>
-<p>After taking account of the missing values, we observe that their impact is significant, the values obtained differs from those obtained in the first analysis with NAs being removed. By imputing the NAs, we have in fact gathered more data (refining our estimation), hence we have obtained a bigger mean and median values for the estimate number of daily steps recorded by the monitoring device.</p>
+<p>After taking account of the missing values, we observe that their impact is significant, the values obtained differ from those obtained in the first analysis with NAs being removed. By imputing the NAs, we have in fact gathered more data (refining our estimation), hence we have obtained a bigger mean and median values for the estimate number of daily steps recorded by the monitoring device.</p>
 </div>
 <div id="are-there-differences-in-activity-patterns-between-weekdays-and-weekends" class="section level3">
 <h3>Are there differences in activity patterns between weekdays and weekends?</h3>

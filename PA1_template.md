@@ -4,7 +4,7 @@ Philippe-C
 
 This assignment is part of the Coursera "Reproducible Research" course from the Data Science specialization. It makes use of data from a personal activity monitoring device. This device collects data at 5 minute intervals through out the day. The data consists of two months of data from an anonymous individual collected during the months of October and November, 2012 and include the number of steps taken in 5 minute intervals each day.
 
-Furthermore, this assignment use R markdown to write a report that answers a series of questions detailed in the sections below. Using Knitr in Rstudio, this file will be transformed into an HTML file.
+Furthermore, this assignment use R markdown to write a report that answers a series of questions detailed in the sections below. Using Knitr in Rstudio, this file will be transformed into a HTML and a md file (including the figures requested).
 
 Therefore, the reader should be able to follow the instructions given in the document and reproduce exactly the same results.
 
@@ -356,7 +356,7 @@ median(steps_count$Total)
 ## [1] 10766.19
 ```
 
-After taking account of the missing values, we observe that their impact is significant, the values obtained differs from those obtained in the first analysis with NAs being removed. By imputing the NAs, we have in fact gathered more data (refining our estimation), hence we have obtained a bigger mean and median values for the estimate number of daily steps recorded by the monitoring device.
+After taking account of the missing values, we observe that their impact is significant, the values obtained differ from those obtained in the first analysis with NAs being removed. By imputing the NAs, we have in fact gathered more data (refining our estimation), hence we have obtained a bigger mean and median values for the estimate number of daily steps recorded by the monitoring device.
 
 ### Are there differences in activity patterns between weekdays and weekends?
 

@@ -8,7 +8,7 @@ keep_md: yes
 
 This assignment is part of the Coursera "Reproducible Research" course from the Data Science specialization. It makes use of data from a personal activity monitoring device. This device collects data at 5 minute intervals through out the day. The data consists of two months of data from an anonymous individual collected during the months of October and November, 2012 and include the number of steps taken in 5 minute intervals each day.
 
-Furthermore, this assignment use R markdown to write a report that answers a series of questions detailed in the sections below. Using Knitr in Rstudio, this file will be transformed into an HTML file.
+Furthermore, this assignment use R markdown to write a report that answers a series of questions detailed in the sections below. Using Knitr in Rstudio, this file will be transformed into a HTML and a md file.
 
 Therefore, the reader should be able to follow the instructions given in the document and reproduce exactly the same results.
 

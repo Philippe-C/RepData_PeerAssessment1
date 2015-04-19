@@ -406,3 +406,4 @@ We can also  notice that the recorded number of steps crosses the 2OO threshold 
 
 Finally, during the weekend, the steps measured are more evenly spaced and the individual is globally more active (we observe more peaks over 100 steps). In other words, this individual seems to have a relatively sedentary work during the week (he might work in an office) and he seems to use its free time to be more active on weekends. 
 
+
